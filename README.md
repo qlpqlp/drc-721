@@ -4,7 +4,7 @@
 
 # DRC-721: Non-Fungible Tokens on the Dogecoin Network
 
-DRC-721 is inspired by the DRC-20, an experimental standard for creating fungible tokens on the Dogecoin network. DRC-20, which can be found at [DRC-20-experiment](https://domo-2.gitbook.io/DRC-20-experiment), aims to bring the functionality of issuing tokens to the Dogecoin ecosystem.
+DRC-721 is inspired by the DRC-20, an experimental standard for creating fungible tokens on the Dogecoin network. DRC-20, which can be found at [DRC-20-experiment](https://drc-20.info), aims to bring the functionality of issuing tokens to the Dogecoin ecosystem.
 
 By building upon the ideas and principles of DRC-20, DRC-721 extends the capabilities of tokenization on the Dogecoin network to include non-fungible tokens, thus enabling a broader range of digital asset management and value representation.
 
