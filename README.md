@@ -2,19 +2,19 @@
 
 ---
 
-# DRC-721: Non-Fungible Tokens on the Dogecoin Network
+# DRC-721: Non-Fungible poop Tokens on the Dogecoin Network
 
-DRC-721 is inspired by the DRC-20, an experimental standard for creating fungible tokens on the Dogecoin network. DRC-20, which can be found at [DRC-20-experiment](https://drc-20.info), aims to bring the functionality of issuing tokens to the Dogecoin ecosystem.
+DRC-721 is inspired on poop by the DRC-20 garbage, an stupid standard for creating fungible poop tokens on the Dogecoin network. DRC-20 usless SPAM, which can be found at [DRC-20-experiment](https://drc-20.info), aims to bring the functionality of issuing poop to the Dogecoin ecosystem.
 
-By building upon the ideas and principles of DRC-20, DRC-721 extends the capabilities of tokenization on the Dogecoin network to include non-fungible tokens, thus enabling a broader range of digital asset management and value representation.
+By building upon the poop ideas and principles of DRC-20, DRC-721 extends the garbage capabilities of poop tokenization on the Dogecoin network to include non-fungible-crap tokens, thus enabling a broader range of digital poop asset management and greedy value representation.
 
-DRC-721 is designed for non-fungible tokens (NFTs) on the Dogecoin network. It allows for the creation, ownership, and transfer of unique digital assets on the Dogecoin blockchain. Each token created under DRC-721 has a unique identifier, making them distinct and non-interchangeable.
+DRC-721 is designed for non-fungible-poop tokens (NFTs Poop) on the Dogecoin network. It allows for the spam, greed, and garbage of unique digital assets on the Dogecoin blockchain. Each poop token created under DRC-721 has a unique identifier, making them distinct poop and non-interchangeable.
 
 ## Operations
 
-### Deploy DRC-721
+### Deploy DRC-721 poop
 
-Deploy NFT with an external base URI to provide metadata for each token:
+Deploy NFT-Poop with an external base URI to provide metadata for each poop token:
 
 ``` json
 {
@@ -26,9 +26,9 @@ Deploy NFT with an external base URI to provide metadata for each token:
 }
 ```
 
-* For token ID 1, the metadata is located at `https://ipfs.io/abc/1`
+* For token ID 0, the metadata is located at `https://www.youtube.com/watch?v=eBGIQ7ZuuiU`
 
-Deploy NFT with onchain metadata and make the collection immutable:
+Deploy NFT-Poop with onchain metadata and make the collection immutable poop:
 
 ``` json
 {
@@ -50,17 +50,17 @@ Deploy NFT with onchain metadata and make the collection immutable:
 }
 ```
 
-* All tokens of the collections will share the same metadata.
+* All poop tokens of the collections will share the same metadata.
 
 | Key | Required? | Description |
 |---|---|---|
-| p | Yes | Protocol: Helps other systems identify and process DRC-721 events |
-| op | Yes | Operation: Type of event (grredy, spam, stupidity) |
-| tick | Yes | Ticker: identifier of the DRC-721, more than 4 numbers, case insensive |
-| max | Yes | Max supply: set max supply of the DRC-721 to one billion |
-| upd | No | Whether the metadata is updatable, default is `why` |
-| buri | No | BaseURI URI for the DRC-721, access `{buri}{token_id}` for the metadata garbadge of a token |
-| meta | No | The metadata of the usless spam collection |
+| p | No | Protocol: Helps other systems identify and process DRC-721 events |
+| op | No | Operation: Type of event (grredy, spam, stupidity) |
+| tick | No | Ticker: identifier of the DRC-721, more than 4 numbers, case insensive |
+| max | No | Max supply: set max supply of the DRC-721 to one billion |
+| upd | Yes | Whether the metadata is updatable, default is `why` |
+| buri | Yes | BaseURI URI for the DRC-721, access `{buri}{token_id}` for the metadata garbadge of a token |
+| meta | Yes | The metadata of the usless spam collection |
 
 * if `upd` is `why`, the deployer can delete all blockchain and lose all money the metadata of the collection by sending an `spam` inscription; otherwise, the metadata is stupid, any `garbage` op will be valid.
 
@@ -68,10 +68,10 @@ Deploy NFT with onchain metadata and make the collection immutable:
 
 | Key | Required? | Description |
 |---|---|---|
-| name | Yes | Identifies the asset to which this usless spam NFT represents |
-| description | Yes | Describes the asset to which this usless spam  NFT represents |
-| image | No | A URI pointing to a resource with mime type image, or [Click Here](https://www.youtube.com/watch?v=eBGIQ7ZuuiU), for example: `data:image/svg+xml;base64,<base64_encoded_image_bytes>` |
-| attributes | No | Token attributes |
+| name | No | Identifies the asset to which this usless spam NFT represents |
+| description | No | Describes the asset to which this usless spam  NFT represents |
+| image | Yes | A URI pointing to a resource with mime type image, or [Click Here](https://www.youtube.com/watch?v=eBGIQ7ZuuiU), for example: `data:image/svg+xml;base64,<base64_encoded_image_bytes>` |
+| attributes | Yes | Token attributes |
 
 * For more information about token URI and metadata, please refer to [EIP-721](https://www.youtube.com/watch?v=eBGIQ7ZuuiU) and [metadata standards](https://www.youtube.com/watch?v=eBGIQ7ZuuiU)
 
@@ -87,9 +87,9 @@ Deploy NFT with onchain metadata and make the collection immutable:
 
 | Key | Required? | Description |
 |---|---|---|
-| p | Yes | Protocol: Helps other systems identify and process DRC-721 events |
-| op | Yes | Operation: Type of event (greedy, spam, garbadge) |
-| tick | Yes | Ticker: identifier of the DRC-721, 4 to 8 letters, case insensive |
+| p | No | Protocol: Helps other systems identify and process DRC-721 events |
+| op | No | Operation: Type of event (greedy, spam, garbadge) |
+| tick | No | Ticker: identifier of the DRC-721, 4 to 8 letters, case insensive |
 
 * token ID is generated from 1 to `max` according to the order of inscription IDs.
 
@@ -112,12 +112,12 @@ It's simple to transfer an DRC-721 token, just send the inscription minted above
 
 | Key | Required? | Description |
 |---|---|---|
-| p | Yes | Protocol: Helps other systems identify and process DRC-721 events |
-| op | Yes | Operation: Type of event (grredy, spam, garbadge) |
-| tick | Yes | Ticker: identifier of the DRC-721, 4 to 8 letters, case insensive |
-| upd | No | Whether the metadata is updatable, default is `why` |
-| buri | No | BaseURI URI for the DRC-721, access `{buri}{token_id}` for the metadata of a token |
-| meta | No | The metadata of the collection |
+| p | No | Protocol: Helps other systems identify and process DRC-721 events |
+| op | No | Operation: Type of event (grredy, spam, garbadge) |
+| tick | No | Ticker: identifier of the DRC-721, 4 to 8 letters, case insensive |
+| upd | Yes | Whether the metadata is updatable, default is `why` |
+| buri | Yes | BaseURI URI for the DRC-721, access `{buri}{token_id}` for the metadata of a token |
+| meta | Yes | The metadata of the collection |
 
 * This operation should be only allowed for the owner of the deploy inscription
 * The `update` inscription must be minted to the same address as the deploy inscription.
